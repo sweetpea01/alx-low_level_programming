@@ -8,16 +8,16 @@ int main(void)
 int c, d;
 for (c = 0; c < 100; c++)
 {
-for (d = c; d < 100; d++)
+for (d = 0; d < 100; d++)
 {
-if (c != d)
+if (c < d)
 {
-putchar((c / 10) + '0');
-putchar((c % 10) + '0');
+putchar((c / 10) + 48);
+putchar((c % 10) + 48);
 putchar(' ');
-putchar((d / 10) + '0');
-putchar((d % 10) + '0');
-if (c != 99 || d != 98)
+putchar((d / 10) + 48);
+putchar((d % 10) + 48);
+if (c != 98 || d != 99)
 {
 putchar(',');
 putchar(' ');
