@@ -2,7 +2,7 @@
 
 /**
  * _putchar - This is useful for writing a character to the standard output
- *Return: Always return the number of characters written on (Success)
+ * Return: Always return the number of characters written on (Success)
  */
 int _putchar(char d)
 {

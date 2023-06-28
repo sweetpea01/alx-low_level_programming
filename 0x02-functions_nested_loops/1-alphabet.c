@@ -2,9 +2,15 @@
 
 /**
  * main.h -This is the header file
- * void print_alphabet - This is the function prototype
+ * print_alphabet - This is the function prototype
+ * Description: The function prints all alphabet letters
+ * in lowercase beginning
+ * from a and finishing with z and then
+ * followed by a new line
  */
-void print_alphabet(void)
+
+void print_alphabet(void);
+
 {
 	char d;
 
