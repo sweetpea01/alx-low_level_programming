@@ -5,7 +5,7 @@
  * followed by a new line
  * but for multiples of three prints Fizz instead of the number
  * and for the multiples of five prints Buzz
- * Return: Always 0 (Success)
+ * Return: Each and every time 0 to mean (Success)
  */
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
 		}
 		else
 		{
-			printf(" %d", i);
+			printf(" %d ", i);
 		}
 
 	}
